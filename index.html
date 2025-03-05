@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudows' FCC Drum Machine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-align">Mudows' FCC Drum Machine</h1>
+        <div id="drum-machine" class="grey darken-3 white-text padding-20">
+            <div id="display" class="center-align flow-text">Clique ou pressione uma tecla</div>
+            <div class="row">
+                <div class="col s4 drum-pad-container">
+                    <div class="drum-pad btn-large waves-effect waves-light" id="Q">Q
+                        <audio class="clip" id="Q" src="sounds/heater-1.mp3"></audio>
+                    </div>
+                </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="W">W
+                    <audio class="clip" id="W" src="sounds/heater-2.mp3"></audio>
+                </div>
+            </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="E">E
+                    <audio class="clip" id="E" src="sounds/heater-3.mp3"></audio>
+                </div>
+            </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="A">A
+                    <audio class="clip" id="A" src="sounds/heater-4.mp3"></audio>
+                </div>
+            </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="S">S
+                    <audio class="clip" id="S" src="sounds/clap.mp3"></audio>
+                </div>
+            </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="D">D
+                    <audio class="clip" id="D" src="sounds/open-hh.mp3"></audio>
+                </div>
+            </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="Z">Z
+                    <audio class="clip" id="Z" src="sounds/kick-n-hat.mp3"></audio>
+                </div>
+            </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="X">X
+                    <audio class="clip" id="X" src="sounds/kick.mp3"></audio>
+                </div>
+            </div>
+            <div class="col s4 drum-pad-container">
+                <div class="drum-pad btn-large waves-effect waves-light" id="C">C
+                    <audio class="clip" id="C" src="sounds/closed-hh.mp3"></audio>
+                </div>
+            </div>
+            <div class="footer right-align">
+              Made by Diego M. Cezar with jQuery, Materialize CSS and <span class="red-text">❤️</span>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

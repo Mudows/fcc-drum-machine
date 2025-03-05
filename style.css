@@ -1,0 +1,67 @@
+body {
+  font-family: 'Righteous', sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #ffd54f;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#drum-machine {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 0 10px;
+  color: white;
+}
+
+.drum-pad {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  background-color: #fff176;
+  color: #333; 
+}
+
+.drum-pad:hover {
+  background-color: #ffd54f;
+}
+
+.drum-pad:active {
+  transform: scale(0.95);
+}
+
+.drum-pad-container {
+  padding: 5px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+  color: white;
+}
+
+.red-text {
+  color: #ff5252;
+}
